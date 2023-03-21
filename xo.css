@@ -1,0 +1,49 @@
+.game
+{
+    width:255px;
+    color:#fff;
+    text-align: center;
+    font-family: system-ui;
+    font-weight: 500;
+    margin:auto;
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    overflow:hidden;
+    background:#23242a;
+}
+.title
+{
+    background: blue;
+    padding:10px 0;
+    margin:10px 0;
+    font-size: 25px;
+    border-radius:5px;
+
+}
+span{
+    color: yellow;
+    font-size:30px;
+}
+.squares
+{
+    width:80px;
+    height: 80px;
+    background:blue;
+    float:left;
+    margin:2px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:60px;
+    color:greenyellow;
+    transition: .5s ease;
+    font-family: italic;
+}
+.squares:hover{
+    background: red;
+}
+
+
